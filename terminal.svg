@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-label="Terminal: José Pedro Bomfim, trader, Brazilian fixed income. Research interests: stochastic calculus, Bayesian inference, financial machine learning.">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0.28"/>
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.65"/>
+    </radialGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: "IBM Plex Mono", "Courier New", Courier, monospace; }
+      .t  { fill: #39ff6a; font-size: 16px; }
+      .d  { fill: #1f9a44; font-size: 16px; }
+      .h  { fill: #39ff6a; font-size: 13px; letter-spacing: 2px; }
+      .rain { fill: #1f9a44; font-size: 13px; }
+      .l  { opacity: 0; animation: show .01s linear forwards; }
+      .l1 { animation-delay: .3s; }  .l2 { animation-delay: .9s; }
+      .l3 { animation-delay: 1.5s; } .l4 { animation-delay: 2.1s; }
+      .l5 { animation-delay: 2.7s; } .l6 { animation-delay: 3.3s; }
+      .l7 { animation-delay: 3.9s; }
+      @keyframes show { to { opacity: 1; } }
+      .cursor { animation: blink 1s steps(1) infinite; animation-delay: 4.3s; opacity: 0; }
+      @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+      .col { animation: fall linear infinite; }
+      @keyframes fall { from { transform: translateY(-300px); } to { transform: translateY(300px); } }
+      .flicker { animation: flicker 6s infinite; }
+      @keyframes flicker { 0%, 96%, 100% { opacity: 1; } 97% { opacity: .85; } 98% { opacity: 1; } 99% { opacity: .9; } }
+    </style>
+  </defs>
+
+  <rect width="840" height="300" rx="10" fill="#050a06"/>
+
+  <!-- falling glyph columns, right side, kept faint so the text stays readable -->
+  <g opacity="0.22">
+    <text class="rain col" x="700" y="0" style="animation-duration:7s">
+      <tspan x="700" dy="16">0</tspan><tspan x="700" dy="16">1</tspan><tspan x="700" dy="16">σ</tspan><tspan x="700" dy="16">7</tspan><tspan x="700" dy="16">∂</tspan><tspan x="700" dy="16">0</tspan><tspan x="700" dy="16">ρ</tspan><tspan x="700" dy="16">3</tspan><tspan x="700" dy="16">κ</tspan><tspan x="700" dy="16">1</tspan>
+    </text>
+    <text class="rain col" x="740" y="0" style="animation-duration:5.5s;animation-delay:-2s">
+      <tspan x="740" dy="16">θ</tspan><tspan x="740" dy="16">9</tspan><tspan x="740" dy="16">0</tspan><tspan x="740" dy="16">∫</tspan><tspan x="740" dy="16">4</tspan><tspan x="740" dy="16">1</tspan><tspan x="740" dy="16">μ</tspan><tspan x="740" dy="16">0</tspan><tspan x="740" dy="16">8</tspan><tspan x="740" dy="16">λ</tspan>
+    </text>
+    <text class="rain col" x="780" y="0" style="animation-duration:8.5s;animation-delay:-5s">
+      <tspan x="780" dy="16">1</tspan><tspan x="780" dy="16">Δ</tspan><tspan x="780" dy="16">0</tspan><tspan x="780" dy="16">5</tspan><tspan x="780" dy="16">Γ</tspan><tspan x="780" dy="16">2</tspan><tspan x="780" dy="16">0</tspan><tspan x="780" dy="16">ν</tspan><tspan x="780" dy="16">1</tspan><tspan x="780" dy="16">6</tspan>
+    </text>
+    <text class="rain col" x="815" y="0" style="animation-duration:6.2s;animation-delay:-3.5s">
+      <tspan x="815" dy="16">∑</tspan><tspan x="815" dy="16">0</tspan><tspan x="815" dy="16">3</tspan><tspan x="815" dy="16">1</tspan><tspan x="815" dy="16">β</tspan><tspan x="815" dy="16">0</tspan><tspan x="815" dy="16">7</tspan><tspan x="815" dy="16">ε</tspan><tspan x="815" dy="16">1</tspan><tspan x="815" dy="16">0</tspan>
+    </text>
+  </g>
+
+  <g filter="url(#glow)" class="flicker">
+    <text class="h" x="28" y="36">JPB-OS 1.0 · SAO PAULO · B3 SESSION</text>
+    <line x1="28" y1="48" x2="660" y2="48" stroke="#1f9a44" stroke-width="1"/>
+
+    <text class="t l l1" x="28" y="82">&gt; whoami</text>
+    <text class="d l l2" x="48" y="106">josé pedro bomfim · trader · brazilian fixed income</text>
+
+    <text class="t l l3" x="28" y="142">&gt; cat research_interests.txt</text>
+    <text class="d l l4" x="48" y="166">stochastic calculus | bayesian inference | financial ML</text>
+
+    <text class="t l l5" x="28" y="202">&gt; ls ./projects</text>
+    <text class="d l l6" x="48" y="226">gex-dashboard-b3/   copom-fomc-sentiment/</text>
+
+    <text class="t l l7" x="28" y="262">&gt;</text>
+    <rect class="cursor" x="44" y="249" width="10" height="17" fill="#39ff6a"/>
+  </g>
+
+  <rect width="840" height="300" rx="10" fill="url(#scan)"/>
+  <rect width="840" height="300" rx="10" fill="url(#vignette)"/>
+</svg>
