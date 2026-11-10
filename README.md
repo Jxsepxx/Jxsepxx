@@ -3,7 +3,7 @@
 Trader at a Brazilian asset manager, working across rates, FX, equities and private credit.
 I build the data and analytics tools my desk uses, and I do quantitative research on public Brazilian market data.
 
-**Focus:** Brazilian rates and credit · systematic research with out-of-sample validation · Python data pipelines
+**Research interests:** stochastic calculus, Bayesian inference and financial machine learning applied to systematic strategies
 
 **Currently:** rebuilding the COPOM sentiment model with walk-forward validation.
 
