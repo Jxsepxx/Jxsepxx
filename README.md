@@ -1,16 +1,30 @@
-## Hi there 👋
+### José Pedro Bomfim
 
-<!--
-**Jxsepxx/Jxsepxx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Trader at a Brazilian asset manager, working across rates, FX, equities and private credit.
+I build the data and analytics tools my desk uses, and I do quantitative research on public Brazilian market data.
 
-Here are some ideas to get you started:
+**Focus:** Brazilian rates and credit · systematic research with out-of-sample validation · Python data pipelines
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Currently:** rebuilding the COPOM sentiment model with walk-forward validation.
+
+**Learning in 2026:** fixed-income pricing (DI curve bootstrapping, NTN-B), C++ for pricing code, testing ML pipelines.
+
+#### Projects
+
+| Project | What it does | Stack | Status |
+| --- | --- | --- | --- |
+| [GEX Dashboard B3](https://github.com/Jxsepxx/gex-dashboard-b3) | Gamma exposure, put/call ratio and IV skew for B3 options from an options-chain file. Runs entirely in the browser. | TypeScript, Next.js, Recharts | [Live demo](https://gex-dashboard-eight.vercel.app) |
+| [COPOM & FOMC sentiment](https://github.com/Jxsepxx/copom-fomc-sentiment) | Classifies central-bank minutes as hawkish, neutral or dovish and tests the signal against Selic and 2-year rates. | Python, sentence-transformers, scikit-learn | Research prototype, validation being rebuilt |
+
+#### At work (proprietary, no public code)
+
+- Private-credit platform used by front office, sales and investor relations: broker quote consolidation, issuer and issue data, spread over the NTN-B curve, LLM-generated issuer summaries. Python, FastAPI, SQL.
+- Automated position, cash and settlement reconciliations for investment funds. Python, SQL, VBA.
+
+#### Stack
+
+Python (pandas, NumPy, SciPy, statsmodels, scikit-learn) · SQL · FastAPI · TypeScript/Next.js · Git · Bloomberg
+
+#### Contact
+
+[LinkedIn](https://www.linkedin.com/in/jose-pedro-bomfim-875ba2243)
