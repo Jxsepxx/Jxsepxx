@@ -5,10 +5,6 @@ I build the data and analytics tools my desk uses, and I do quantitative researc
 
 **Research interests:** stochastic calculus, Bayesian inference and financial machine learning applied to systematic strategies
 
-**Currently:** rebuilding the COPOM sentiment model with walk-forward validation.
-
-**Learning in 2026:** fixed-income pricing (DI curve bootstrapping, NTN-B), C++ for pricing code, testing ML pipelines.
-
 #### Projects
 
 | Project | What it does | Stack | Status |
